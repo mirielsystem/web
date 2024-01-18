@@ -68,24 +68,40 @@
 
     <!-- メンバーカード -->
     <div class="card-container">
-        <div class="card">
-            <img src="https://avatars.githubusercontent.com/u/146170742?v=4" alt="ありす(16439s)">
-            <h4>ありす(16439s)</h4>
-            <p>Founder & MAIN Developer</p>
-            <p>メールアドレス: contact@16439s.jp</p>
-        </div>
+        <?php
+            $members = [
+                [
+                    'img' => 'https://avatars.githubusercontent.com/u/146170742?v=4',
+                    'alt' => 'ありす(16439s)',
+                    'name' => 'ありす(16439s)',
+                    'role' => 'Founder & MAIN Developer',
+                    'email' => 'contact@16439s.jp'
+                ],
+                [
+                    'img' => 'https://avatars.githubusercontent.com/u/106049626?v=4',
+                    'alt' => 'MilkChan(みるくちゃん)',
+                    'name' => 'MilkChan(みるくちゃん)',
+                    'role' => 'Founder & Tester'
+                ],
+                [
+                    'img' => 'https://cdn.discordapp.com/avatars/498226824162181120/9350db1f0bdc3f49b9d49bb99d63b81e.png?size=1024',
+                    'alt' => 'Rurutan7 (るるたん)',
+                    'name' => 'Rurutan7 (るるたん)',
+                    'role' => 'Moderator & Member'
+                ]
+            ];
 
-        <div class="card">
-            <img src="https://avatars.githubusercontent.com/u/106049626?v=4" alt="MilkChan(みるくちゃん)">
-            <h4>MilkChan(みるくちゃん)</h4>
-            <p>Founder & Tester</p>
-        </div>
-
-        <div class="card">
-            <img src="https://cdn.discordapp.com/avatars/498226824162181120/9350db1f0bdc3f49b9d49bb99d63b81e.png?size=1024" alt="Rurutan7 (るるたん)">
-            <h4>Rurutan7 (るるたん)</h4>
-            <p>Moderator & Member</p>
-        </div>
+            foreach ($members as $member) {
+                echo '<div class="card">';
+                echo '<img src="' . $member['img'] . '" alt="' . $member['alt'] . '">';
+                echo '<h4>' . $member['name'] . '</h4>';
+                echo '<p>' . $member['role'] . '</p>';
+                if (isset($member['email'])) {
+                    echo '<p>メールアドレス: ' . $member['email'] . '</p>';
+                }
+                echo '</div>';
+            }
+        ?>
     </div>
     <p>&nbsp;</p>
     <h3>サービス一覧</h3>
@@ -98,6 +114,6 @@
         </a>
     </div>
     <hr />
-    <p style="text-align: center; margin-bottom: 20px;">Copyright © 2024 FreelyNetwork All Rights Reserved.</p>
+    <p style="text-align: center; margin-bottom: 20px;">Copyright © 2024 @FreelyNetwork All Rights Reserved.</p>
 </body>
 </html>
