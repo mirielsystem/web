@@ -58,9 +58,10 @@
 <body>
     <h2>FreelyNetwork</h2>
     <hr />
-    <h3>Menu</h3>
-    <p><a href="index.html">ホーム</a></p>
-    <hr />
+
+    <!-- メニューをロード -->
+    <?php include('menu.php'); ?>
+
     <h4>Home/ホーム</h4>
     <p>FreelyNetworkのサービスへようこそ</p>
     <p>&nbsp;</p>
