@@ -89,7 +89,7 @@
                     'alt' => 'Rurutan7 (るるたん)',
                     'name' => 'Rurutan7 (るるたん)',
                     'role' => 'Moderator & Member'
-                ]
+                ],
                 [
                     'img' => 'https://avatars.githubusercontent.com/u/109388848?v=4',
                     'alt' => '風緑(SuperSocket7)',
