@@ -91,7 +91,7 @@
                     'role' => 'Moderator & Member'
                 ],
                 [
-                    'img' => 'http://nekokawa.net/assets/icon.png',
+                    'img' => 'https://nekokawa.net/assets/icon.png',
                     'alt' => '風緑(SuperSocket7)',
                     'name' => '風緑(SuperSocket7)',
                     'role' => 'Web Staff/Contributor'
