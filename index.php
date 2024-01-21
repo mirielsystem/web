@@ -91,7 +91,7 @@
                     'role' => 'Moderator & Member'
                 ],
                 [
-                    'img' => 'https://avatars.githubusercontent.com/u/109388848?v=4',
+                    'img' => 'http://nekokawa.net/assets/icon.png',
                     'alt' => '風緑(SuperSocket7)',
                     'name' => '風緑(SuperSocket7)',
                     'role' => 'Web Staff/Contributor'
