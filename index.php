@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FreelyNetwork</title>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-Ctm0c9Ag7M5aUk5IQz3JUbMya/JM+1k4AsbVkZmlBnj2MBybIrF3iDF9Z7eQcbv3" crossorigin="anonymous">
     <style>
         body {
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -56,11 +57,7 @@
     </style>
 </head>
 <body>
-    <h2>FreelyNetwork</h2>
-    <hr />
-
-    <!-- メニューをロード -->
-    <?php include('menu.php'); ?>
+    <?php include('header.php'); ?>
 
     <h4>Home/ホーム</h4>
     <p>FreelyNetworkのサービスへようこそ</p>
@@ -85,7 +82,7 @@
                     'role' => 'Founder & Tester'
                 ],
                 [
-                    'img' => 'https://cdn.discordapp.com/avatars/498226824162181120/9350db1f0bdc3f49b9d49bb99d63b81e.png?size=1024',
+                    'img' => 'https://cdn.discordapp.com/avatars/498226824162181120/b920b6d1e1da34945230c1d10456c350.png?size=1024',
                     'alt' => 'Rurutan7 (るるたん)',
                     'name' => 'Rurutan7 (るるたん)',
                     'role' => 'Moderator & Member'
@@ -112,15 +109,37 @@
     </div>
     <p>&nbsp;</p>
     <h3>サービス一覧</h3>
-    <div class="card">
-        <a href="https://rosekey.sbs" target="_blank">
-            <img src="https://rosekey.sbs/files/18c4f01a-c1c4-4296-91df-098f1d05441d" alt="Rosekey">
-            <h4>Rosekey</h4>
-            <p>RosekeyはCherryPickをベースとしているサーバーです。</p>
-            <p>新規登録大歓迎！</p>
-        </a>
+    <!-- サービス一覧 -->
+    <div class="card-container">
+        <?php
+            $services = [
+                [
+                    'img' => 'https://rosekey.social/favicon.ico',
+                    'alt' => 'Rosekey',
+                    'name' => 'Rosekey',
+                    'description' => 'Rosekeyは、カテゴリーフリーのサーバーです。新規登録大歓迎！',
+                    'url' => 'https://rosekey.social'
+                ],
+                [
+                    'img' => 'https://vocaloid.social/files/2dcfde81-ec5f-40ce-afa9-4cf53cdf543c',
+                    'alt' => 'Vocaloid.social',
+                    'name' => 'ぼかろすきー(vocaloid.social)',
+                    'description' => 'ぼかろすきーは、ボーカロイドが好きな人が集まるサーバーです！！新規登録大歓迎！',
+                    'url' => 'https://vocaloid.social'
+                ]
+            ];
+
+            foreach ($services as $service) {
+                echo '<div class="card">';
+                echo '<a href="' . $service['url'] . '" target="_blank">';
+                echo '<img src="' . $service['img'] . '" alt="' . $service['alt'] . '">';
+                echo '<h4>' . $service['name'] . '</h4>';
+                echo '<p>' . $service['description'] . '</p>';
+                echo '</a>';
+                echo '</div>';
+            }
+        ?>
     </div>
-    <hr />
-    <p style="text-align: center; margin-bottom: 20px;">Copyright © 2024 @FreelyNetwork All Rights Reserved.</p>
+    <?php include('footer.php'); ?>
 </body>
 </html>
