@@ -47,6 +47,8 @@
             padding: 15px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            /* カードの下部に余白を追加 */
+            margin-bottom: 60px;
         }
 
         .card img {
