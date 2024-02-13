@@ -56,8 +56,8 @@
         }
     </style>
 </head>
+<?php include('header.php'); ?>
 <body>
-    <?php include('header.php'); ?>
     <h1>FreelyNetwork Blog</h1>
 
     <!-- 投稿一覧を表示 -->
