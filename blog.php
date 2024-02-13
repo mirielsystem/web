@@ -57,6 +57,7 @@
     </style>
 </head>
 <body>
+    <?php include('header.php'); ?>
     <h1>FreelyNetwork Blog</h1>
 
     <!-- 投稿一覧を表示 -->
@@ -76,5 +77,6 @@
         echo '<p>まだ投稿がありません。</p>';
     }
     ?>
+    <?php include('footer.php'); ?>
 </body>
 </html>
