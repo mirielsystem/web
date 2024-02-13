@@ -90,10 +90,10 @@
                     'role' => 'Moderator & Member'
                 ],
                 [
-                    'img' => 'https://nekokawa.net/assets/icon.png',
-                    'alt' => '風緑(SuperSocket7)',
-                    'name' => '風緑(SuperSocket7)',
-                    'role' => 'Web Staff/Contributor'
+                    'img' => 'https://avatars.githubusercontent.com/u/86859447?v=4',
+                    'alt' => '1STEP621',
+                    'name' => '1STEP621',
+                    'role' => 'Rosekey Contributor'
                 ]
             ];
 
@@ -115,13 +115,6 @@
     <div class="card-container">
         <?php
             $services = [
-                [
-                    'img' => 'https://rosekey.social/favicon.ico',
-                    'alt' => 'Rosekey',
-                    'name' => 'Rosekey',
-                    'description' => 'Rosekeyは、カテゴリーフリーのサーバーです。新規登録大歓迎！',
-                    'url' => 'https://rosekey.social'
-                ],
                 [
                     'img' => 'https://vocaloid.social/files/2dcfde81-ec5f-40ce-afa9-4cf53cdf543c',
                     'alt' => 'Vocaloid.social',
