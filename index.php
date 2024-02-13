@@ -84,7 +84,7 @@
                     'role' => 'Founder & Tester'
                 ],
                 [
-                    'img' => './0c75b92736939778de5256271acacca4.png',
+                    'img' => './images/0c75b92736939778de5256271acacca4.png',
                     'alt' => 'Rurutan7 (るるたん)',
                     'name' => 'Rurutan7 (るるたん)',
                     'role' => 'Moderator & Member'
