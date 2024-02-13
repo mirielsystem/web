@@ -84,7 +84,7 @@
                     'role' => 'Founder & Tester'
                 ],
                 [
-                    'img' => 'https://cdn.discordapp.com/avatars/498226824162181120/b920b6d1e1da34945230c1d10456c350.png?size=1024',
+                    'img' => './0c75b92736939778de5256271acacca4.png',
                     'alt' => 'Rurutan7 (るるたん)',
                     'name' => 'Rurutan7 (るるたん)',
                     'role' => 'Moderator & Member'
