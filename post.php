@@ -11,24 +11,38 @@
             padding: 0;
             background-color: #f0f0f0;
             display: flex;
-            justify-content: center;
+            flex-direction: column;
             align-items: center;
+            justify-content: space-between;
             min-height: 100vh;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            width: 100%;
+            text-align: center;
         }
 
         .container {
             max-width: 800px;
+            width: 100%;
             padding: 20px;
-            text-align: center;
+            box-sizing: border-box;
         }
 
         h1, p {
-            margin-bottom: 20px;
+            text-align: center;
         }
     </style>
 </head>
 <body>
-    <?php include('header.php'); ?>
+    <!-- header.phpをheaderタグ内に読み込む -->
+    <header>
+        <?php include('header.php'); ?>
+    </header>
+    
     <div class="container">
         <?php
         // パラメータから投稿ファイル名を取得
@@ -49,6 +63,9 @@
         }
         ?>
     </div>
-    <?php include('footer.php'); ?>
+    
+    <footer>
+        <?php include('footer.php'); ?>
+    </footer>
 </body>
 </html>
