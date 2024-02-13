@@ -87,7 +87,8 @@
             </svg>
         </div>
         <nav class="menu-links">
-            <p><a href="/">ホーム</a></p>
+        <p><a href="/">ホーム</a></p>
+        <p><a href="/blog.php">ブログ</a></p>
         </nav>
     </header>
 
