@@ -75,7 +75,6 @@
                     'alt' => 'ありす(16439s)',
                     'name' => 'ありす(16439s)',
                     'role' => 'Founder & MAIN Developer',
-                    'email' => 'contact@16439s.jp'
                 ],
                 [
                     'img' => 'https://avatars.githubusercontent.com/u/106049626?v=4',
