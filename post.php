@@ -18,6 +18,15 @@
             letter-spacing: normal;
         }
 
+        header, footer {
+           display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: #333;
+            padding: 10px 20px;
+            color: #fff;
+        }
+
         .container {
             max-width: 800px;
             width: 100%;
