@@ -17,8 +17,3 @@
  ご理解とご協力を賜りますようお願い申し上げます。
 
 #### ※2 荒らしとは、いたずらのお問い合わせを送信するなどをして人や企業に迷惑をかける行為である。
----
-### FreelyNetwork
-#### お問い合わせ先
-代表 contact@freelynetwork.jp
-ぼかろすきー contact@vocaloid.ltd
