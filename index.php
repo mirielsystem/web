@@ -62,6 +62,7 @@
     <?php include('header.php'); ?>
 
     <h4>Home/ホーム</h4>
+    <h3 style="text-align: center;"><a href="http://freelynetwork.jp/post.php?post=Email-Address-Abuse-Notice"><span style="color: #e03e2d; background-color: #f8cac6;">&lt;重要&gt; FreelyNetworkのメールアドレスからのいたずらのお問い合わせフォーム荒らしについて。</span></a></h3>
     <p>FreelyNetworkのサービスへようこそ</p>
     <p>&nbsp;</p>
     <h3>メンバー一覧</h3>
