@@ -15,14 +15,7 @@
             align-items: center;
             justify-content: space-between;
             min-height: 100vh;
-        }
-
-        header, footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            width: 100%;
-            text-align: center;
+            letter-spacing: normal;
         }
 
         .container {
