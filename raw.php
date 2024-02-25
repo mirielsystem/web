@@ -84,11 +84,6 @@
   <p>&nbsp;</p> 
   <p>&nbsp;</p>
   <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p> 
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
-  <p>&nbsp;</p>
   <!-- end -->
 <footer>
     <?php include('footer.php'); ?>
