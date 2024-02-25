@@ -14,6 +14,7 @@
 
     dl {
         text-align: center;
+        margin-bottom: 20px; /* リストの下に余白を追加 */
     }
 
     dt {
@@ -28,11 +29,17 @@
     p {
         text-align: center;
         margin-top: 20px;
+        margin-bottom: 20px; /* パラグラフの下に余白を追加 */
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 20px; /* フッターの上に余白を追加 */
+        clear: both; /* 要素の下に回り込ませる */
     }
 </style>
 </head>
 <body>
-<?php include('header.php'); ?>
 
 <dl>
   <dt>事業者の名称</dt>
@@ -67,6 +74,9 @@
 
 <p>※所在地については、特定事業者に関する情報公表制度に基づき、請求があった場合に開示します。</p>
 
-<?php include('footer.php'); ?>
+<footer>
+    <?php include('footer.php'); ?>
+</footer>
+
 </body>
 </html>
