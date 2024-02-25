@@ -89,7 +89,7 @@
         <nav class="menu-links">
         <p><a href="/">ホーム</a></p>
         <p><a href="/blog.php">ブログ</a></p>
-        <p><a href="/law.php">特定商取引法に基づく表記</a></p>
+        <p><a href="/raw.php">特定商取引法に基づく表記</a></p>
         </nav>
     </header>
 
