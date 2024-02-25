@@ -40,6 +40,7 @@
 </style>
 </head>
 <body>
+<?php include('header.php'); ?>
 
 <dl>
   <dt>事業者の名称</dt>
@@ -74,6 +75,21 @@
 
 <p>※所在地については、特定事業者に関する情報公表制度に基づき、請求があった場合に開示します。</p>
 
+
+ <!-- スマホ対策なので削除禁止 By @16439s -->
+ <p>&nbsp;</p> 
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p> 
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p> 
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <!-- end -->
 <footer>
     <?php include('footer.php'); ?>
 </footer>
