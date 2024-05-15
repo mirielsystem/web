@@ -62,7 +62,7 @@
     <?php include('header.php'); ?>
     <h4>Home/ホーム</h4>
     <h3 style="text-align: center;"><a href="http://freelynetwork.jp/post.php?post=Email-Address-Abuse-Notice"><span style="color: #e03e2d; background-color: #f8cac6;">&lt;重要&gt; FreelyNetworkのメールアドレスからのいたずらのお問い合わせフォーム荒らしについて。</span></a></h3>
-    <p>FreelyNetworkのサービスへようこそ</p>
+    <p>Miriel Systems へようこそ</p>
     <p>&nbsp;</p>
     <h3>メンバー一覧</h3>
 
@@ -71,7 +71,7 @@
         <?php
             $members = [
                 [
-                    'img' => 'https://avatars.githubusercontent.com/u/146170742?v=4',
+                    'img' => 'https://avatars.githubusercontent.com/u/168396067?v=4',
                     'alt' => 'Miriel',
                     'name' => 'Miriel (mirielnet)',
                     'role' => 'President / Head / Lead Developer',
@@ -103,7 +103,7 @@
         <?php
             $services = [
                 [
-                    'img' => 'https://vocaloid.social/files/2dcfde81-ec5f-40ce-afa9-4cf53cdf543c',
+                    'img' => 'https://freelynetwork.jp/files/4bbbecc6-a832-43f7-acca-c795c38d0df3',
                     'alt' => 'freelynetwork.jp',
                     'name' => 'ぼかろすきー V2(OLD SERVER)',
                     'description' => 'ぼかろすきーは、ボーカロイドが好きな人が集まるサーバーです！！新規登録大歓迎！',

@@ -74,10 +74,10 @@
             $parsedown = new Parsedown();
             $postContent = file_get_contents($postPath);
             // ページタイトルを設定
-            echo '<h1>FreelyNetwork Blog - ' . $postFileName . '</h1>';
+            echo '<h1>Miriel Systems -' . $postFileName . '</h1>';
             echo $parsedown->text($postContent);
         } else {
-            echo '<h1>FreelyNetwork Blog</h1>';
+            echo '<h1>Miriel Systems Blog</h1>';
             echo '<p>投稿が見つかりません。</p>';
         }
         ?>
