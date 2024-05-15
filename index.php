@@ -60,9 +60,6 @@
 </head>
 <body>
     <?php include('header.php'); ?>
-    <div class="logo">
-        <img src="./images/385_20240509201511.png" alt="mirielsystems.logo">
-    </div>
     <h4>Home/ホーム</h4>
     <h3 style="text-align: center;"><a href="http://freelynetwork.jp/post.php?post=Email-Address-Abuse-Notice"><span style="color: #e03e2d; background-color: #f8cac6;">&lt;重要&gt; FreelyNetworkのメールアドレスからのいたずらのお問い合わせフォーム荒らしについて。</span></a></h3>
     <p>FreelyNetworkのサービスへようこそ</p>
