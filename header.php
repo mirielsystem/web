@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FreelyNetwork</title>
+    <title>Miriel Systems</title>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-Ctm0c9Ag7M5aUk5IQz3JUbMya/JM+1k4AsbVkZmlBnj2MBybIrF3iDF9Z7eQcbv3" crossorigin="anonymous">
     <style>
@@ -89,7 +89,6 @@
         <nav class="menu-links">
         <p><a href="/">ホーム</a></p>
         <p><a href="/blog.php">ブログ</a></p>
-        <p><a href="/raw.php">特定商取引法に基づく表記</a></p>
         </nav>
     </header>
 

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FreelyNetwork</title>
+    <title>Miriel System</title>
     <link rel="icon" href="./favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-Ctm0c9Ag7M5aUk5IQz3JUbMya/JM+1k4AsbVkZmlBnj2MBybIrF3iDF9Z7eQcbv3" crossorigin="anonymous">
     <style>
@@ -60,7 +60,9 @@
 </head>
 <body>
     <?php include('header.php'); ?>
-
+    <div class="logo">
+        <img src="./images/385_20240509201511.png" alt="mirielsystems.logo">
+    </div>
     <h4>Home/ホーム</h4>
     <h3 style="text-align: center;"><a href="http://freelynetwork.jp/post.php?post=Email-Address-Abuse-Notice"><span style="color: #e03e2d; background-color: #f8cac6;">&lt;重要&gt; FreelyNetworkのメールアドレスからのいたずらのお問い合わせフォーム荒らしについて。</span></a></h3>
     <p>FreelyNetworkのサービスへようこそ</p>
@@ -73,9 +75,9 @@
             $members = [
                 [
                     'img' => 'https://avatars.githubusercontent.com/u/146170742?v=4',
-                    'alt' => 'ありす(16439s)',
-                    'name' => 'ありす(16439s)',
-                    'role' => 'Founder & MAIN Developer',
+                    'alt' => 'Miriel',
+                    'name' => 'Miriel (mirielnet)',
+                    'role' => 'President / Head / Lead Developer',
                 ],
                 [
                     'img' => 'https://avatars.githubusercontent.com/u/106049626?v=4',
@@ -83,18 +85,6 @@
                     'name' => 'MilkChan(みるくちゃん)',
                     'role' => 'Founder & Tester'
                 ],
-                [
-                    'img' => './images/0c75b92736939778de5256271acacca4.png',
-                    'alt' => 'Rurutan7 (るるたん)',
-                    'name' => 'Rurutan7 (るるたん)',
-                    'role' => 'Moderator & Member'
-                ],
-                [
-                    'img' => 'https://avatars.githubusercontent.com/u/86859447?v=4',
-                    'alt' => '1STEP621',
-                    'name' => '1STEP621',
-                    'role' => 'Rosekey Contributor'
-                ]
             ];
 
             foreach ($members as $member) {
@@ -117,10 +107,10 @@
             $services = [
                 [
                     'img' => 'https://vocaloid.social/files/2dcfde81-ec5f-40ce-afa9-4cf53cdf543c',
-                    'alt' => 'Vocaloid.social',
-                    'name' => 'ぼかろすきー(vocaloid.social)',
+                    'alt' => 'freelynetwork.jp',
+                    'name' => 'ぼかろすきー V2(OLD SERVER)',
                     'description' => 'ぼかろすきーは、ボーカロイドが好きな人が集まるサーバーです！！新規登録大歓迎！',
-                    'url' => 'https://vocaloid.social'
+                    'url' => 'https://freelynetwork.jp'
                 ]
             ];
 
