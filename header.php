@@ -79,7 +79,9 @@
 <body>
     <!-- New header -->
     <header class="header">
-        <div class="logo">FreelyNetwork</div>
+    <div class="logo">
+        <img src="./images/385_20240509201511.png" alt="mirielsystems.logo">
+    </div>
         <div class="menu-toggle" onclick="toggleMenu()">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
                 <path fill="none" d="M0 0h24v24H0z"/>
