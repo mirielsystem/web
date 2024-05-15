@@ -10,6 +10,12 @@
         /* Your existing CSS styles here */
 
         /* New header styles */
+
+        .logo img {
+            width: 100px; /* 画像の幅を指定 */
+            height: auto; /* 画像の高さを自動調整 */
+        }
+
         .header {
             display: flex;
             justify-content: space-between;
