@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div class="theme-container">
       <Header />
       <Content />
       <Footer />
@@ -13,17 +13,8 @@
   export default {
     components: {
       Header,
-      Footer
-    }
+      Footer,
+    },
   }
   </script>
-  
-  <style>
-  body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
-  }
-  </style>
   

@@ -2,4 +2,4 @@
 
 ## 記事一覧
 
-- [Sample Post](./sample-post.md)
+- [Sample Post](./blog/sample-post.md)
